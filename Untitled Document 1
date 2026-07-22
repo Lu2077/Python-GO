@@ -1,0 +1,128 @@
+INTRO
+-----------------------------------
+sword_damage = 10
+start_health = 100
+end_health = start_health - sword_damage
+
+# Don't touch below this line
+print(f"Sam's health is: {start_health}")
+print(f"Sam takes {sword_damage} damage...")
+print(f"Sam's health is: {end_health}")
+
+----------------------------------
+
+print("Greetings, adventurer!")
+
+--------------------------------------
+
+Remember how we used the print() instruction to print text to the console, like this?
+
+print("this is a string of text")
+
+We can also use it to print numbers. Numbers, unlike plain text strings, are not surrounded in quotes. This prints the number 42:
+
+print(42)
+
+Adding Numbers
+Addition is one of the most common instructions in programming. This also prints the number 42:
+
+print(40 + 2)
+---------------------------------------------------------
+
+print("Jax: B-Kaw!")
+print("Hero: ...")
+print("Jax: Where are you off to this morning? Bkaw...")
+print("Hero: where did an owl learn to speak??")
+
+-------------------------------------
+VARIABLES
+# ?
+player_health = 1000
+
+# Don't touch below this line
+
+print(player_health)
+
+-----------------------------
+
+player_health = 1000
+
+# reduce by 100 here
+
+print(player_health - 100)
+
+# and here
+
+print(player_health - 200)
+
+# and here
+
+print(player_health - 300)
+
+# and here
+
+print(player_health - 400)
+
+---------------------------------------------
+
+name = "Yarl"
+age = 37
+race = "dwarf"
+
+# Don't edit above this line
+
+print(f"{name} is a {race} who is {age} years old.")
+
+----------------------------------------------------
+
+player_name = "Charles"
+greeting = "Well met,"
+quest_start = "The local mine has been taken over by orcs!"
+quest_end = "We need your help taking it back."
+space = " "
+
+# don't touch above this line
+
+complete_greeting = greeting + space 
+print(complete_greeting,player_name)
+print(quest_start)
+print(quest_end, space)
+
+----------------------------------------------------
+
+game_one_score = 97
+game_two_score = 92
+game_three_score = 106
+game_four_score = 105
+
+# Don't touch above this line
+
+average_score = ((game_one_score+game_two_score+game_three_score+game_four_score)/4)
+
+# Don't touch below this line
+
+print(round(average_score))
+
+-----------------------------------------------
+
+name = "Lopen"
+level = 25
+character_class = "Windrunner"
+magic_resistance = 15.0
+account_active = True
+
+# Don't edit below this line
+
+print("Character Report")
+print(f"{name} is a level {level} {character_class}.")
+print(f"They have {magic_resistance} magic resistance.")
+print(f"Their account is currently active: {account_active}")
+
+print("=========================")
+print("Character Report Complete")
+print("Data types:")
+print(
+    f"name: {type(name).__name__}, level: {type(level).__name__}, character_class: {type(character_class).__name__}"
+)
+print(f"magic_resistance: {type(magic_resistance).__name__}")
+print(f"account_active: {type(account_active).__name__}")
